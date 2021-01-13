@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C65F235225AF3ED000B60111 /* StartMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65F235125AF3ED000B60111 /* StartMenu.swift */; };
 		C65F235325AF3ED000B60111 /* StartMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65F235125AF3ED000B60111 /* StartMenu.swift */; };
+		C65F235725AF7C2100B60111 /* MyComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65F235625AF7C2100B60111 /* MyComputer.swift */; };
+		C65F235825AF7C2200B60111 /* MyComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65F235625AF7C2100B60111 /* MyComputer.swift */; };
 		C6ADB3D325AF1FEE005258AC /* Windows95App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADB3C025AF1FED005258AC /* Windows95App.swift */; };
 		C6ADB3D425AF1FEE005258AC /* Windows95App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADB3C025AF1FED005258AC /* Windows95App.swift */; };
 		C6ADB3D525AF1FEE005258AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADB3C125AF1FED005258AC /* ContentView.swift */; };
@@ -21,10 +23,15 @@
 		C6ADB3F025AF2262005258AC /* Taskbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADB3EE25AF2262005258AC /* Taskbar.swift */; };
 		C6ADB3F625AF22AF005258AC /* Desktop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADB3F525AF22AF005258AC /* Desktop.swift */; };
 		C6ADB3F725AF22AF005258AC /* Desktop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADB3F525AF22AF005258AC /* Desktop.swift */; };
+		C6EE9E2425AF800400A47910 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EE9E2325AF800400A47910 /* Window.swift */; };
+		C6EE9E2525AF800400A47910 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EE9E2325AF800400A47910 /* Window.swift */; };
+		C6EE9E2925AF802700A47910 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EE9E2825AF802700A47910 /* Toolbar.swift */; };
+		C6EE9E2A25AF802700A47910 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EE9E2825AF802700A47910 /* Toolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C65F235125AF3ED000B60111 /* StartMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMenu.swift; sourceTree = "<group>"; };
+		C65F235625AF7C2100B60111 /* MyComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComputer.swift; sourceTree = "<group>"; };
 		C6ADB3C025AF1FED005258AC /* Windows95App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Windows95App.swift; sourceTree = "<group>"; };
 		C6ADB3C125AF1FED005258AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6ADB3C225AF1FEE005258AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +43,8 @@
 		C6ADB3E525AF2030005258AC /* DesktopIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesktopIcon.swift; sourceTree = "<group>"; };
 		C6ADB3EE25AF2262005258AC /* Taskbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taskbar.swift; sourceTree = "<group>"; };
 		C6ADB3F525AF22AF005258AC /* Desktop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop.swift; sourceTree = "<group>"; };
+		C6EE9E2325AF800400A47910 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		C6EE9E2825AF802700A47910 /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +85,9 @@
 				C6ADB3C025AF1FED005258AC /* Windows95App.swift */,
 				C6ADB3EE25AF2262005258AC /* Taskbar.swift */,
 				C65F235125AF3ED000B60111 /* StartMenu.swift */,
+				C65F235625AF7C2100B60111 /* MyComputer.swift */,
+				C6EE9E2325AF800400A47910 /* Window.swift */,
+				C6EE9E2825AF802700A47910 /* Toolbar.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -203,12 +215,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EE9E2925AF802700A47910 /* Toolbar.swift in Sources */,
 				C6ADB3EF25AF2262005258AC /* Taskbar.swift in Sources */,
 				C6ADB3F625AF22AF005258AC /* Desktop.swift in Sources */,
 				C6ADB3D525AF1FEE005258AC /* ContentView.swift in Sources */,
 				C6ADB3D325AF1FEE005258AC /* Windows95App.swift in Sources */,
 				C6ADB3E625AF2030005258AC /* DesktopIcon.swift in Sources */,
 				C65F235225AF3ED000B60111 /* StartMenu.swift in Sources */,
+				C65F235725AF7C2100B60111 /* MyComputer.swift in Sources */,
+				C6EE9E2425AF800400A47910 /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,12 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EE9E2A25AF802700A47910 /* Toolbar.swift in Sources */,
 				C6ADB3F025AF2262005258AC /* Taskbar.swift in Sources */,
 				C6ADB3F725AF22AF005258AC /* Desktop.swift in Sources */,
 				C6ADB3D625AF1FEE005258AC /* ContentView.swift in Sources */,
 				C6ADB3D425AF1FEE005258AC /* Windows95App.swift in Sources */,
 				C6ADB3E725AF2030005258AC /* DesktopIcon.swift in Sources */,
 				C65F235325AF3ED000B60111 /* StartMenu.swift in Sources */,
+				C65F235825AF7C2200B60111 /* MyComputer.swift in Sources */,
+				C6EE9E2525AF800400A47910 /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
