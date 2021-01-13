@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C65F235225AF3ED000B60111 /* StartMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65F235125AF3ED000B60111 /* StartMenu.swift */; };
+		C65F235325AF3ED000B60111 /* StartMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65F235125AF3ED000B60111 /* StartMenu.swift */; };
 		C6ADB3D325AF1FEE005258AC /* Windows95App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADB3C025AF1FED005258AC /* Windows95App.swift */; };
 		C6ADB3D425AF1FEE005258AC /* Windows95App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADB3C025AF1FED005258AC /* Windows95App.swift */; };
 		C6ADB3D525AF1FEE005258AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADB3C125AF1FED005258AC /* ContentView.swift */; };
@@ -22,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C65F235125AF3ED000B60111 /* StartMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMenu.swift; sourceTree = "<group>"; };
 		C6ADB3C025AF1FED005258AC /* Windows95App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Windows95App.swift; sourceTree = "<group>"; };
 		C6ADB3C125AF1FED005258AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6ADB3C225AF1FEE005258AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 				C6ADB3E525AF2030005258AC /* DesktopIcon.swift */,
 				C6ADB3C025AF1FED005258AC /* Windows95App.swift */,
 				C6ADB3EE25AF2262005258AC /* Taskbar.swift */,
+				C65F235125AF3ED000B60111 /* StartMenu.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -204,6 +208,7 @@
 				C6ADB3D525AF1FEE005258AC /* ContentView.swift in Sources */,
 				C6ADB3D325AF1FEE005258AC /* Windows95App.swift in Sources */,
 				C6ADB3E625AF2030005258AC /* DesktopIcon.swift in Sources */,
+				C65F235225AF3ED000B60111 /* StartMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +221,7 @@
 				C6ADB3D625AF1FEE005258AC /* ContentView.swift in Sources */,
 				C6ADB3D425AF1FEE005258AC /* Windows95App.swift in Sources */,
 				C6ADB3E725AF2030005258AC /* DesktopIcon.swift in Sources */,
+				C65F235325AF3ED000B60111 /* StartMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
